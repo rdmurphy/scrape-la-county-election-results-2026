@@ -411,7 +411,7 @@
                 "ID": 25026,
                 "Name": "STEVE HILTON",
                 "Party": "Republican",
-                "Winner": false,
+                "Winner": true,
                 "Votes": 0
               },
               {
@@ -432,7 +432,7 @@
                 "ID": 25123,
                 "Name": "TOM STEYER",
                 "Party": "Democratic",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -522,7 +522,7 @@
                 "ID": 25002,
                 "Name": "GLORIA ROMERO",
                 "Party": "Republican",
-                "Winner": false,
+                "Winner": true,
                 "Votes": 0
               },
               {
@@ -550,7 +550,7 @@
                 "ID": 24916,
                 "Name": "MICHAEL TUBBS",
                 "Party": "Democratic",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -701,7 +701,7 @@
                 "ID": 25412,
                 "Name": "ANNA M. CABALLERO",
                 "Party": "Democratic",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -729,7 +729,7 @@
                 "ID": 25413,
                 "Name": "JENNIFER HAWKS",
                 "Party": "Republican",
-                "Winner": false,
+                "Winner": true,
                 "Votes": 0
               },
               {
@@ -3219,7 +3219,7 @@
                 "ID": 24696,
                 "Name": "MARIA ELENA DURAZO",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3254,7 +3254,7 @@
                 "ID": 25023,
                 "Name": "LINDSEY P. HORVATH",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3371,7 +3371,7 @@
                 "ID": 24981,
                 "Name": "JEFFREY PRANG",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3433,7 +3433,7 @@
                 "ID": 24881,
                 "Name": "TAL K. VALBUENA",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3461,7 +3461,7 @@
                 "ID": 24947,
                 "Name": "IRENE LEE",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3482,7 +3482,7 @@
                 "ID": 24908,
                 "Name": "BINH Q. DANG",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3503,7 +3503,7 @@
                 "ID": 24982,
                 "Name": "ANN M. MAURER",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3601,7 +3601,7 @@
                 "ID": 24962,
                 "Name": "BEN FORER",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3636,7 +3636,7 @@
                 "ID": 24773,
                 "Name": "DAVID WALGREN",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3692,7 +3692,7 @@
                 "ID": 24867,
                 "Name": "PAT CONNOLLY",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3762,7 +3762,7 @@
                 "ID": 24943,
                 "Name": "MARIELA TORRES",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -3783,7 +3783,7 @@
                 "ID": 24888,
                 "Name": "GLORIA MARIN",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3811,7 +3811,7 @@
                 "ID": 24978,
                 "Name": "RYAN DIBBLE",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -3839,7 +3839,7 @@
                 "ID": 24883,
                 "Name": "CANDICE J. HENRY",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -4230,7 +4230,7 @@
                 "ID": 25312,
                 "Name": "SATRA D. ZURITA",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -4251,7 +4251,7 @@
                 "ID": 25314,
                 "Name": "BRANDON MIMS",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -4398,7 +4398,7 @@
                 "ID": 25309,
                 "Name": "JONATHAN BOWERS",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5175,7 +5175,7 @@
                 "ID": 25174,
                 "Name": "JUSTIN L. JONES",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5196,7 +5196,7 @@
                 "ID": 25175,
                 "Name": "JESS RIVAS",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5224,7 +5224,7 @@
                 "ID": 25176,
                 "Name": "JASON LYON",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5280,7 +5280,7 @@
                 "ID": 25191,
                 "Name": "NORA GARCIA",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5322,7 +5322,7 @@
                 "ID": 25188,
                 "Name": "YVONNE COBARRUBIAS",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5672,7 +5672,7 @@
                 "ID": 25282,
                 "Name": "LAURA DOUD",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5721,7 +5721,7 @@
                 "ID": 25274,
                 "Name": "REX RICHARDSON",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5777,7 +5777,7 @@
                 "ID": 25291,
                 "Name": "MARY ZENDEJAS",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5812,7 +5812,7 @@
                 "ID": 25284,
                 "Name": "KRISTINA DUGGAN",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5847,7 +5847,7 @@
                 "ID": 25287,
                 "Name": "MEGAN KERR",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -5889,7 +5889,7 @@
                 "ID": 25277,
                 "Name": "VIVIAN MALAUULU",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -5910,7 +5910,7 @@
                 "ID": 25280,
                 "Name": "JONI RICKS-ODDIE",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -6064,7 +6064,7 @@
                 "ID": 25326,
                 "Name": "KENNETH MEJIA",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -6204,7 +6204,7 @@
                 "ID": 25335,
                 "Name": "EUNISSES HERNANDEZ",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -6295,7 +6295,7 @@
                 "ID": 25350,
                 "Name": "KATY YAROSLAVSKY",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -6323,7 +6323,7 @@
                 "ID": 25356,
                 "Name": "MONICA RODRIGUEZ",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -6407,7 +6407,7 @@
                 "ID": 25347,
                 "Name": "TRACI IRENE PARK",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
@@ -6442,7 +6442,7 @@
                 "ID": 25352,
                 "Name": "HUGO SOTO-MARTINEZ",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               },
               {
@@ -6477,7 +6477,7 @@
                 "ID": 25354,
                 "Name": "TIM MCOSKER",
                 "Party": "Non Partisan",
-                "Winner": true,
+                "Winner": false,
                 "Votes": 0
               }
             ]
