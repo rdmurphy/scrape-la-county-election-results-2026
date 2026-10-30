@@ -4,6 +4,17 @@ A repo that runs a GitHub Action to retrieve and store the L.A. County's 2026 el
 
 ## What's here
 
+### Nov. 3, 2026 General
+
+| File/Directory  | Notes |
+| ------------- | ------------- |
+| [`general/results.json`](./general/results.json)  | A snapshot of the [JSON results file RR/CC makes available](https://www.lavote.gov/home/voting-elections/current-elections/election-results-file-downloads). |
+| [`general/election_data.json`](./general/election_data.json) | This file is loaded on the [dynamic updating results page](https://results.lavote.gov/#year=2026&election=4338). It gives every contest and candidate a unique ID. Despite having slots for vote counts, these are always zeroed out. |
+| [`general/counter_data.json`](./general/counter_data.json) | This file is loaded on the [dynamic updating results page](https://results.lavote.gov/#year=2026&election=4338). It provides the vote values (and other totals) found on a results page. The IDs that appear in this file sync up with the ones in `election_data.json`. |
+| `general/results/*.json` | These files represent each copy of `results.json` collected in a snapshot. |
+| `general/counter_data/*.json` | These files represent each copy of `counter_data.json` collected on a given day. |
+| [`general/timeframes.json`](./general/timeframes.json) | This file is where all the historical data is brought together. It includes historical vote totals and changes for every single contest and candidate per snapshot. |
+
 ### June 2, 2026 Primary
 
 | File/Directory  | Notes |

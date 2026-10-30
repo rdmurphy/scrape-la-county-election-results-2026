@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download and format the data
-        run: ./scripts/collect.sh ./primary 4338
+        run: ./scripts/collect.sh ./general 4348
 
       - name: Get a timestamp
         id: timestamp
