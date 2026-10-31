@@ -27,6 +27,10 @@ jobs:
       - name: Download and format the data
         run: ./scripts/collect.sh ./general 4348
 
+      - name: Update snapshots and timeframes
+        continue-on-error: true # never let a problem block committing fresh data
+        run: python3 update_snapshots.py ./general
+
       - name: Get a timestamp
         id: timestamp
         run: echo "value=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
