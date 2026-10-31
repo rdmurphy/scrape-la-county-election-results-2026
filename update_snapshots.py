@@ -57,8 +57,9 @@ def build_snapshots(directory):
 
     snapshots = []
     previous = None
+    archived = sorted((archive_dir / 'counter_data').glob('*.json'))
 
-    for path in sorted((archive_dir / 'counter_data').glob('*.json')):
+    for path in archived:
         with open(path) as infile:
             data = load(infile)['Data']
 
@@ -69,6 +70,10 @@ def build_snapshots(directory):
 
         previous = data
         snapshots.append(path.stem)
+
+    # until real numbers arrive, use the newest zeroed-out file as a placeholder
+    if not snapshots and archived:
+        snapshots.append(archived[-1].stem)
 
     names = {}
     per_day = {}
