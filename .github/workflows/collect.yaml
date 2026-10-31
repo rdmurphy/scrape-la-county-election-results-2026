@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "*/20 * * * *"
 
+# never let two scrapes overlap
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
