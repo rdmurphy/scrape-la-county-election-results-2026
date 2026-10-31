@@ -11,7 +11,7 @@ def normalize_description(s):
         opponents = opponents.strip().rstrip(".").split("; ")
 
         return description.strip(), supporters, opponents
-    
+
     return s, None, None
 
 
@@ -49,10 +49,14 @@ def prepare(directory):
     with open(directory / 'election_data.json') as infile:
         contest_groups = load(infile)['Data']['ContestGroups']
         contest_groups = sorted(contest_groups, key=lambda x: x['Order'])
-    
+
     # The directory where the counter data is stored
     counter_data_dir = directory / 'counter_data'
-    counter_data_files = sorted(counter_data_dir.glob('*.json'))
+    # Sort by date, then numerically by revision
+    counter_data_files = sorted(
+        counter_data_dir.glob('*.json'),
+        key=lambda f: (f.stem.rsplit('-', 1)[0], int(f.stem.rsplit('-', 1)[1])),
+    )
 
     lookups = []
     dates = []
@@ -63,14 +67,14 @@ def prepare(directory):
 
         with open(file) as infile:
             counter_data = load(infile)['Data']
-        
+
         # The counter data contains the lookup table
         lookups.append(
             {d["ReferenceID"]: d for d in counter_data if d["ReferenceID"]}
         )
 
     output = []
-    
+
     for group in contest_groups:
         contest_group = group['Name']
         contests = group['Contests']
@@ -161,6 +165,6 @@ if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("Usage: python prepare_timeframes.py <directory>")
         sys.exit(1)
-    
+
     directory = sys.argv[1]
     prepare(directory)
