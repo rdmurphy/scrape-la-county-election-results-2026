@@ -112,9 +112,7 @@ def update(directory):
         archive(directory, name)
 
     build_snapshots(directory)
-
-    if any((directory / 'counter_data').glob('*.json')):
-        prepare(directory)
+    prepare(directory)
 
 
 if __name__ == '__main__':
