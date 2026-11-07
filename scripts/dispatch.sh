@@ -16,7 +16,7 @@ log() {
 }
 
 main() {
-    local interval="${1:-600}"
+    local interval="${1:-1800}"
 
     # fail fast if gh can't talk to GitHub
     gh auth status > /dev/null
